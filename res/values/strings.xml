@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Search Smart</string>
+    <string name="action_settings">Settings</string>
+    <string name="label1">Local Search</string>
+    <string name="label2">Global Search</string>
+        <string name="body1">Local Links Go Here</string>
+        <string name="body2">Global Links Go Here</string>
+        
+        <string name="search">Search Bar</string>
+        <string-array name="Profession">
+            <item>Enter your Stream of study</item>
+            <item >Computer Science Engineering</item>
+            <item >Electronics and Electrical Engineering</item>
+            <item >Electronics and Communications Engineering</item>
+            <item >Civil Engineering </item>
+            <item >BioTechnology</item>
+            <item >Mechanical Engineering </item>
+            <item >Instrumentation and control Engineering</item>
+            
+
+        </string-array>
+        <string name="abt">To reduce the amount of user\'s interactions with the search interface, it is required to understand the users needs, and provide him/her highly relevant information. This is donw by capturing the users interests in user profiles. This app is a personalized search middleware able to adapt the search results obtained from general search engines to the users preferences through the method of personalized reranking of the search results. we recognize the importance of location information in mobile search and user\'s location preferences in addition to context preferences in user profiles.  </string>
+        
+    
+
+</resources>

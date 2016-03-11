@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="match_parent"
+     android:layout_height="match_parent">
+     
+   <LinearLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/back"
+    android:textAlignment="center">
+    
+    <TextView android:id="@+id/build"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:textColor="#FFFFFF" 
+        android:layout_gravity="center_horizontal"
+        android:text="BUILD YOUR PROFILE HERE "/>
+    
+    <TextView android:id="@+id/tname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"       
+        android:textColor="#FFFFFF"        
+        android:text="User name:"/>
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:maxLines="1"
+        android:textColor="#FFFFFF"
+        android:layout_margin="10dp"
+        android:hint="Your name"/>
+    
+   
+    <TextView android:id="@+id/tmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"        
+        android:textColor="#FFFFFF" 
+        android:text="Mail id:"/>
+
+    <EditText
+        android:id="@+id/mail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:ems="50"
+        android:maxLines="1"
+        android:textColor="#FFFFFF"
+        android:layout_margin="10dp"
+        android:hint="enter mail id" />
+    
+    
+    <TextView android:id="@+id/prof"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"  
+        android:textColor="#FFFFFF"       
+        android:text="Branch:"/>
+
+    <Spinner
+        android:id="@+id/profession"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:padding="3dp"
+        android:layout_margin="10dp"
+        android:background="#000000"
+        android:entries="@array/Profession" />
+
+    
+     <ImageButton android:id="@+id/save"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:padding="5dp"
+         android:layout_marginTop="10dp"
+         android:src="@drawable/button"
+         android:layout_gravity="center_horizontal"/>
+     
+    
+</LinearLayout>
+</ScrollView>

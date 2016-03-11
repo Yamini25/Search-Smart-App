@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    android:orientation="vertical" >
+<TextView  android:id="@+id/profile"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="USER PROFILE"
+    android:layout_centerHorizontal="true"
+    android:paddingTop="50dp"
+    android:textColor="#ffffff"/>
+    <LinearLayout  android:id="@+id/vlay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_margin="20dp"
+        android:background="#000000"
+        android:orientation="vertical"
+        android:padding="20dp" >
+  <LinearLayout android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:orientation="horizontal"
+      android:background="#000000">
+      
+        <TextView
+            android:id="@+id/rname1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="USERNAME: "
+            android:textColor="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/rname2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF" />
+</LinearLayout>
+<LinearLayout android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:orientation="horizontal"
+      android:background="#000000">
+        <TextView
+            android:id="@+id/rmail1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="EMAIL ID: "
+            
+            android:textColor="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/rmail2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF" />
+        </LinearLayout>
+<LinearLayout 
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:orientation="horizontal"
+      android:background="#000000">
+        <TextView
+            android:id="@+id/rprof1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PROFESSION: "
+            android:textColor="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/rprof2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF" />
+        </LinearLayout>
+    </LinearLayout>
+<Button android:id="@+id/vbtn"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="EDIT"
+    android:textColor="#63D1F4"
+    android:layout_below="@id/vlay"
+    android:layout_centerHorizontal="true"/>
+</RelativeLayout>

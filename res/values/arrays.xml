@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="favs">
+            <item >Computer Science Engineering</item>
+            <item >Electronics and Electrical Engineering</item>
+            <item >Electronics and Communications Engineering</item>
+            <item >Civil Engineering </item>
+            <item >BioTechnology</item>
+            <item >Mechanical Engineering </item>
+            <item >Instrumentation and control Engineering</item>
+        </string-array>
+    
+</resources>

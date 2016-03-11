@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    android:orientation="vertical" >
+    <TextView android:id="@+id/abt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="ABOUT"
+        android:layout_margin="10dp"
+        android:textColor="#FFFFFF"/>
+    <TextView android:id="@+id/abttxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="#FFFFFF"
+        android:text="To reduce the amount of user\'s interactions with the search interface, it is required to understand the users needs and provide him/her highly relevant information. This is donw by capturing the users interests in user profiles. This app is a personalized search middleware able to adapt the search results obtained from general search engines to the users preferences through the method of personalized reranking of the search results.We recognize the importance of location information in mobile search and user\'s location preferences in addition to context preferences in user profiles."/>
+
+</LinearLayout>

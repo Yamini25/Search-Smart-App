@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    android:background="@drawable/shape_lay">
+  <TextView android:id="@+id/txtdia1"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:textColor="#63D1F4"
+      android:padding="5dp"
+      android:layout_gravity="center_horizontal"
+      android:text="     Include capital letter(s) in your keyword when you want your search to be profile based"/>
+    
+      <Button
+        android:id="@+id/declineButton1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text=" OK"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp"
+        android:textColor="#63D1F4"
+        android:layout_below="@id/txtdia1"
+        />
+</RelativeLayout>
